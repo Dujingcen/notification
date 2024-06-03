@@ -1,6 +1,6 @@
 {
   "name": "djcat/notification-service",
-  "description": "A notification service package supporting mini-program, email, and SMS notifications.",
+  "description": "一个通知包 集成小程序 短信 和 邮箱的基本结构",
   "type": "library",
   "require": {
     "php": "^7.4 || ^8.0",

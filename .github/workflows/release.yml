@@ -21,6 +21,6 @@ jobs:
         run: composer install --no-dev
 
       - name: Publish to GitHub Packages
-        run: composer config --auth github-oauth.github.com ${{ secrets.GITHUB_TOKEN }} && composer publish
+        run: composer config --auth github-oauth.github.com ${{ secrets.djcat_token }} && composer publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.djcat_token }}

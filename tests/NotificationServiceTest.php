@@ -1,5 +1,5 @@
 <?php
-namespace YourNamespace\Tests;
+namespace djcat\Tests;
 
 use PHPUnit\Framework\TestCase;
 use YourNamespace\Service\NotificationService;
